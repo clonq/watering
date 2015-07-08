@@ -1,0 +1,22 @@
+{
+  "name": "watering",
+  "version": "0.1.0",
+  "description": "estimate water usage required for an irrigation system ",
+  "repository": "clonq/watering",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+  },
+  "author": "ovi",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.30",
+    "request": "^2.58.0"
+  },
+  "author": {
+    "name": "Ovi Comes",
+    "email": "ovi.comes@gmail.com"
+  },
+  "license": "MIT"
+}
