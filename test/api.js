@@ -7,6 +7,7 @@ describe('API tests', function(){
         .calculate()
         .then(function(data){
             should.exist(data);
+            console.log(data);
             data.should.have.property('volume');
             data.should.have.property('time');
             done();

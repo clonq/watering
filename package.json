@@ -1,6 +1,6 @@
 {
   "name": "watering",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "estimate water usage required for an irrigation system ",
   "repository": "clonq/watering",
   "engines": {

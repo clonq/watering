@@ -63,11 +63,8 @@ function getWateringData(precipIntensityYesterday, precipIntensityToday) {
     var requiredWateringVolume = waterAmountLPD - rainVolume;
 
     var waterTime = 0;
-    if(requiredWateringVolume < 0) {
-        // console.log('no watering required');
-    } else {
-        waterTime = SFR / requiredWateringVolume; // minutes;
-        // console.log('required watering time per sprinkler:', Math.round(waterTime/4), 'minutes');
+    if(requiredWateringVolume > 0) {
+        waterTime = requiredWateringVolume / SFR; // minutes;
     }
     return {
         volume: requiredWateringVolume,
