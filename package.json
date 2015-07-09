@@ -1,6 +1,6 @@
 {
   "name": "watering",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "estimate water usage required for an irrigation system ",
   "repository": "clonq/watering",
   "engines": {
@@ -15,7 +15,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^2.9.30",
+    "bluebird": "^2.9.32",
     "config": "^1.14.0",
     "request": "^2.58.0"
   },

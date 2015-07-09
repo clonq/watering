@@ -17,11 +17,26 @@ where:
 [Know How Much Water You Use](http://www.markham.ca/wps/portal/Markham/Residents/Water/WaterConserv/Conservation/!ut/p/a1/hY9RT4MwAIR_i3-gvdpS6mPtDGuBMDRsrC-GLYgkAwxOif9etuzJZPPeLvkud0c9Lanvq--2qY7t0FeHk_fy1VkYpmO4bKEktIKT8QpMPGEGtjNgIr0UYQKgiBawYf5YZGnMYeWffJoq2LW7t8lDgoyJSx5XpPFf_4b6MyKyyJhkrfI8j-Zeu9SBTTlMwC7ArYln4MYGR32768i07whIwCDApFRchQF4SDeG-q-fFxc1pze633HVUD_Wb_VYj-R9-DzScpom0gxDc6jJvqIfXVGiXXXPW333C3EXiHk!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/)
 
 
-Code
+Installation
 ===
 
 ```
 npm install watering
 ```
 
-Check `config` directory for default development parameters.
+Usage
+===
+
+Make sure you change the values in `config/development.json` first.
+
+```
+watering
+.calculate()
+.then(function(data){
+	// watering volume and time 
+})
+.catch(function(err){
+	// handle errors
+})
+```
+

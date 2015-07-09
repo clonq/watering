@@ -3,5 +3,8 @@
 	"PF": 1.0,
 	"SF": 916,
 	"IE": 0.75,
-	"SFR": 37
+	"SFR": 37,
+	"FORECAST_IO_API_KEY": "your forecast.io api key goes here",
+	"LAT": "lawn latitude",
+	"LNG": "lawn longitude"
 }
